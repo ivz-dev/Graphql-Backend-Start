@@ -1,0 +1,10 @@
+type Story {
+    id: ID!
+    sessionId: ID!
+    description: String
+    value: String
+    current: Boolean
+    time: Int
+    pause: Boolean
+    votes: [Vote]
+  }

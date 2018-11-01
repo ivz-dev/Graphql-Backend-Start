@@ -1,0 +1,7 @@
+type Session {
+    id: ID!
+    open: Boolean
+    values: String
+    users: [User]
+    stories: [Story]
+}

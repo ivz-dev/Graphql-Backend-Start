@@ -1,0 +1,17 @@
+type Query {
+    getSessionData(id: ID): Session!
+}
+
+type Subscription {
+    liveSession(sessionId: ID): Session
+}
+
+type Mutation {
+    createSession(values: String, userName: String): Session!
+    addStory(sessionId: ID, description: String, value: String): Story!
+    addUser(name: String, sessionId: ID): User!
+    addVote(storyId: ID, userId: ID, time: Int, value: String): Vote!
+    closeStory(storyId: ID): Story!
+    setStoryValue(storyId: ID, value: String, time: Int): Story!
+    closeSession(sessionId: ID): Session!
+}

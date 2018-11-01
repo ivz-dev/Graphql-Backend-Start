@@ -1,0 +1,7 @@
+type Vote {
+    id: ID!
+    storyId: ID!
+    userId: ID!
+    time: Int
+    value: String
+}
