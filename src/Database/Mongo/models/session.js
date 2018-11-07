@@ -3,12 +3,12 @@ const mongoose = require('mongoose');
 const SessionSchema = new mongoose.Schema({
   open: {
     type: Boolean,
-    required: true,
+    required: true
   },
   values: {
     type: String,
-    required: true,
+    required: true
   }
 });
 
-module.exports =  mongoose.model('Session', SessionSchema);
+module.exports = mongoose.model('Session', SessionSchema);

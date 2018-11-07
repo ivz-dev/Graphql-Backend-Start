@@ -1,4 +1,4 @@
 module.exports = {
-    resolvers: require('./user.resolvers'),
-    typeDefs: require('../../utils/gqlLoader')('user/user.graphql'),
-}
+  resolvers: require('./user.resolvers'),
+  typeDefs: require('../../utils/gqlLoader')('user/user.graphql')
+};

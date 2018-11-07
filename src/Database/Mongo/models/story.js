@@ -21,4 +21,4 @@ const StorySchema = new mongoose.Schema({
     type: Number
   }
 });
-module.exports =  mongoose.model('Story', StorySchema);
+module.exports = mongoose.model('Story', StorySchema);
