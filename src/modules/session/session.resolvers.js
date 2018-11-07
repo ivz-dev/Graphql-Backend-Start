@@ -34,7 +34,7 @@ module.exports = {
         await newUser.save();
         return session;
       } catch (e) {
-        throw new Error('Cannot Save Session!');
+        throw new Error("Cannot Save Session!");
       }
     },
     closeSession: async (parent, { sessionId }, { mongo, pubsub }) => {
@@ -48,7 +48,7 @@ module.exports = {
 
         return updatedSession;
       } catch (e) {
-        throw new Error('Cannot close session!');
+        throw new Error("Cannot close session!");
       }
     }
   },

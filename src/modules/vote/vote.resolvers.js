@@ -20,7 +20,7 @@ module.exports = {
 
         return vote;
       } catch (e) {
-        throw new Error('Cannot add new vote!');
+        throw new Error("Cannot add new vote!");
       }
     }
   }

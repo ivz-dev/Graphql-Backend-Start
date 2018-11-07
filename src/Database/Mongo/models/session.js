@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const SessionSchema = new mongoose.Schema({
   open: {
@@ -11,4 +11,4 @@ const SessionSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Session', SessionSchema);
+module.exports = mongoose.model("Session", SessionSchema);

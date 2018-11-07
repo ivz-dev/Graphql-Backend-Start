@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const StorySchema = new mongoose.Schema({
   sessionId: {
@@ -21,4 +21,4 @@ const StorySchema = new mongoose.Schema({
     type: Number
   }
 });
-module.exports = mongoose.model('Story', StorySchema);
+module.exports = mongoose.model("Story", StorySchema);

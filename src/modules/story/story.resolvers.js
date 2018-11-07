@@ -32,7 +32,7 @@ module.exports = {
 
         return story;
       } catch (e) {
-        throw new Error('Cannot Save Story!');
+        throw new Error("Cannot Save Story!");
       }
     },
     closeStory: async (parent, { storyId }, { mongo, pubsub }) => {
@@ -49,7 +49,7 @@ module.exports = {
 
         return story;
       } catch (e) {
-        throw new Error('Cannot update Story!');
+        throw new Error("Cannot update Story!");
       }
     },
     setStoryValue: async (
@@ -70,7 +70,7 @@ module.exports = {
 
         return story;
       } catch (e) {
-        throw new Error('Cannot update Story!');
+        throw new Error("Cannot update Story!");
       }
     }
   }

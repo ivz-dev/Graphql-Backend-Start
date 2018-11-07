@@ -1,17 +1,17 @@
-const config = require('config');
-const Sequelize = require('sequelize');
+const config = require("config");
+const Sequelize = require("sequelize");
 
 const sequelize = new Sequelize({
-  host: config.get('Database.mysql.host'),
-  database: config.get('Database.mysql.name'),
-  username: config.get('Database.mysql.user'),
-  password: config.get('Database.mysql.password'),
-  dialect: config.get('Database.mysql.dialect'),
-  port: config.get('Database.mysql.port')
+  host: config.get("Database.mysql.host"),
+  database: config.get("Database.mysql.name"),
+  username: config.get("Database.mysql.user"),
+  password: config.get("Database.mysql.password"),
+  dialect: config.get("Database.mysql.dialect"),
+  port: config.get("Database.mysql.port")
 });
 
 const User = sequelize.define(
-  'user_details',
+  "user_details",
   {
     user_id: {
       type: Sequelize.INTEGER,

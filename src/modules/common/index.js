@@ -1,3 +1,3 @@
 module.exports = {
-  typeDefs: require('../../utils/gqlLoader')('common/common.graphql')
+  typeDefs: require("../../utils/gqlLoader")("common/common.graphql")
 };

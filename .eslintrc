@@ -13,7 +13,7 @@
     },
     "rules": {
       "space-in-parens": ["error", "never"],
-      "quotes": [1, "single"],
+      "quotes": [2, "double"],
       "node/no-deprecated-api": 0,
       "node/no-extraneous-require": 0,
       "node/no-missing-require": 0,
